@@ -15,3 +15,16 @@ Ejemplo de ejecución:
 
 Ambos números son iguales
 """
+def main():
+    first_num = int(input("Ingresa el primer número entero: "))
+    second_num = int(input("Ingresa el segundo número entero: "))
+    
+    if first_num == second_num:
+        print("Ambos son iguales")
+    elif first_num > second_num:
+        print(f"{first_num} es mayor que {second_num}")
+    else:
+        print(f"{second_num} es mayor que {first_num}")
+        
+if __name__ == "__main__":
+    main()
