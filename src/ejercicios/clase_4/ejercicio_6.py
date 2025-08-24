@@ -17,3 +17,29 @@ Ejemplo de ejecución:
 
 IMC: 18.7 => Obesidad
 """
+
+import math
+
+
+def calculate_bmi(weight, height):
+    return weight / math.pow(height, 2)
+
+
+def main():
+    weight = float(input("Introduce tu peso (kg): "))
+    height = float(input("Introduce tu altura (m): "))
+
+    bmi = calculate_bmi(weight, height)
+
+    if bmi < 18.5:
+        print("bajo peso")
+    elif 18.5 <= bmi < 25:
+        print("normal")
+    elif 25 <= bmi < 30:
+        print("sobrepeso")
+    else:
+        print("obesidad")
+
+
+if __name__ == "__main__":
+    main()
