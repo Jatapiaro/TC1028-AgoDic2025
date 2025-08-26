@@ -17,3 +17,6 @@ Ejemplo de ejecución:
 
 IMC: 18.7 => Obesidad
 """
+
+ejercicio_6
+Alexhia Sophia Pérez Escobar | A01825459
