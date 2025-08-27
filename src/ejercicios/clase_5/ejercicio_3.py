@@ -38,4 +38,30 @@ Ejemplos de ejecución del programa
 >>>2
 >>>m
 20
+
 """
+def main ():
+    n1= int(input("Valor 1:"))
+    n2= int(input("Valor 2:"))
+    clave= input("Clave :")
+
+    resultado =pswrd(n1,n2, clave)
+    print(f"el resultado es:{resultado}")
+
+def pswrd (n1:int,n2:int,clave:str)->int:
+    
+
+    if clave == "s":
+        return n1+n2
+    elif clave == "r":
+        return n1-n2
+    elif clave == "m":
+        return n1*n2
+    elif clave == "d":
+        if n2 !=0:
+            return n1/n2
+        else:
+            return "Error: Division entre cero"
+    else:
+        return "Error: Clave no valida"
+    main()
