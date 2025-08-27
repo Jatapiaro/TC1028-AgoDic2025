@@ -39,3 +39,36 @@ Ejemplos de ejecución del programa
 >>>m
 20
 """
+
+
+# Ejercicio 3
+
+
+def main():
+    n1 = int(input("Ingrese el primer numero: "))
+    n2 = int(input("Ingrese el segundo numero: "))
+    clave = input("Ingrese la clave: ")
+
+    resultado = operacion(n1, n2, clave)
+    print(f"El resultado es:  {resultado}")
+
+def operacion(n1: int, n2: int, clave: str) -> int:
+   
+    if clave == 's':
+       return n1 + n2
+    elif clave == 'r':
+       return n1 - n2
+    elif clave == 'm':
+       return n1 * n2
+    elif clave == 'd':
+        if n2 != 0:
+           return n1 / n2
+        else:
+           return "Error: Division por cero"
+    else: 
+       return "Error: Clave no valida"
+    
+if __name__ == "__main__":
+       main()   
+
+
