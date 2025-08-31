@@ -30,3 +30,21 @@ Hint:
     - Si fuera de 22 elementos, tus indices van de 0 a 21.
     - ¿Crees que esto sea últil para resolver el problema?
 """
+import numpy as np
+import random
+
+def generar_tablero() -> list:
+    numeros: list = random.sample(range(1, 100), 25)
+    tablero: list = np.array(numeros).reshape(5, 5).tolist()
+    return tablero
+
+def imprimir_tablero(tablero: list) -> None:
+    for fila in tablero:
+        print(", ".join(map(str, fila)))
+
+def main():
+    tablero: list = generar_tablero()
+    imprimir_tablero(tablero)
+
+if __name__ == "__main__":
+    main()
