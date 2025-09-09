@@ -15,3 +15,22 @@ Ejemplo de ejecución:
 >>> Pyt-h0n 3.9 es genial!
 Pyth
 """
+
+def main():
+    texto: str = input("Ingresa una frase: ")
+    res: str = ""
+
+    for i in texto:
+        if i == " " or i == "-":
+            continue
+
+        if i.isdigit():
+            print("¡Error: Se encontró un dígito!")
+            break
+
+        res += i
+    
+    print(res)
+
+if __name__ == "__main__":
+    main()
