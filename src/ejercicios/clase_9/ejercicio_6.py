@@ -15,3 +15,20 @@ Ejemplo de ejecución:
 >>> Pyt-h0n 3.9 es genial!
 Pyth
 """
+
+def main ():   
+    frase = input("Ingrese su frase a limpiar: ")
+    respuesta = ""
+
+    for i in frase:
+        if i == "-" or i == " ":
+            continue
+        elif i.isdigit (): #Determina si un número es un dígito o no
+           print ("¡Error: Se encontró un dígito!")
+           break
+        respuesta = respuesta + i
+
+    print("La frase original es:", frase)
+    print("La frase limpiada es:  ", respuesta)
+
+main ()
