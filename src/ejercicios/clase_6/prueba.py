@@ -1,8 +1,8 @@
 # from ejercicio_1 import calculo
-import ejercicio_1
-
 # import math
 from math import sqrt
+
+import ejercicio_1
 
 sqrt(2)
 

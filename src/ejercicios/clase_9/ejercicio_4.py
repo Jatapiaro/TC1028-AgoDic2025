@@ -18,3 +18,30 @@ i => 0
 o => 2
 u => 2
 """
+
+
+def main():
+    frase = input("Ingrese su frase: ")
+    frase = frase.lower()
+    a, e, i, o, u = 0, 0, 0, 0, 0
+
+    for x in frase:
+        if x == "a":
+            a = a + 1
+        elif x == "e":
+            e = e + 1
+        elif x == "i":
+            i = i + 1
+        elif x == "o":
+            o = o + 1
+        elif x == "u":
+            u = u + 1
+
+    print(f"a = {a}")
+    print(f"e = {e}")
+    print(f"i = {i}")
+    print(f"o = {o}")
+    print(f"u = {u}")
+
+
+main()
