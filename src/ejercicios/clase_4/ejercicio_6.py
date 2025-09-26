@@ -17,3 +17,17 @@ Ejemplo de ejecución:
 
 IMC: 18.7 => Obesidad
 """
+peso = float(input('Introduzca su peso en kg: '))
+est = float(input('Introduzca su altura en metros: '))
+
+imc = (peso / (est ** 2))
+if  imc < 18.5:
+  print('Bajo Peso')
+elif imc == 18.5 or imc < 25:
+  print('Normal')
+elif imc >= 25 or imc < 30:
+  print('Sobrepeso')
+elif imc >= 30:  
+  print('Obesidad')
+else:
+  print('Error, vuelva a introducir sus datos')
