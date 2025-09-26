@@ -1,9 +1,9 @@
 """
 Cuenta dígitos
-Escribe un programa que lea un número entero positivo y que muestre en la 
+Escribe un programa que lea un número entero positivo y que muestre en la
 pantalla la cantidad de dígitos que tiene.
 
-Sugerencia: Divide el número entre 10 repetidamente hasta que el número sea 
+Sugerencia: Divide el número entre 10 repetidamente hasta que el número sea
 menor que 1.
 
 325 // 10 = 32

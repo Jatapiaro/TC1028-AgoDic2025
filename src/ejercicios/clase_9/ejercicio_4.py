@@ -1,7 +1,7 @@
 """
 Escribe un programa, que dado un string, imprima al usuario el conteo de vocales
 de dicho string.
-Por ejemplo, la frase "El lenguaje PythOn es muy popUlAr" tiene las siguientes 
+Por ejemplo, la frase "El lenguaje PythOn es muy popUlAr" tiene las siguientes
 vocales.
 
 E, e, u, a, e, O, e, u, o, U, A.

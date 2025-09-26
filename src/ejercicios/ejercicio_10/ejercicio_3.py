@@ -10,3 +10,24 @@ Lógica:
 
 Retorno: Debe retornar el contador_palabras.
 """
+
+
+def contar_palabras(text: str) -> int:
+    count = 0
+    en_palabra = False
+    for character in text:
+        if character == " ":
+            en_palabra = False
+        else:
+            if not en_palabra:
+                count += 1
+                en_palabra = True
+
+    return count
+
+
+def main():
+    print(contar_palabras(text=input()))
+
+
+main()

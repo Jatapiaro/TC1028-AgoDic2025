@@ -13,7 +13,7 @@ Salir
 Pide al usuario que elija una opción (un número del 1 al 4).
 Decisiones: Usa if/elif/else para manejar la opcion elegida:
     Opción 1: Imprime el saldo actual.
-    Opción 2 (Depositar): Pide al usuario una cantidad. 
+    Opción 2 (Depositar): Pide al usuario una cantidad.
         Usa un mini-ciclo while para validar que la cantidad sea positiva. Luego, suma la cantidad al saldo.
 
     Opción 3 (Retirar): Pide al usuario una cantidad. Usa if/elif para validar:

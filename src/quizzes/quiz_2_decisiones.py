@@ -4,11 +4,11 @@ Escribe un programa para calcular el precio final de un artículo en una tienda,
 El usuario ingresará dos valores:
 - el precio original del artículo.
 - un número entero que representa el tipo de cliente. Puede ser:
-    0 para clientes nuevos ( no tiene descuento) 
+    0 para clientes nuevos ( no tiene descuento)
     1 para clientes regulares (descuento del 10%).
     2 para clientes VIP (descuento del 20%).
 
-El programa debe calcular el precio final del artículo aplicando el descuento 
+El programa debe calcular el precio final del artículo aplicando el descuento
 correspondiente según el tipo de cliente.
 
 El programa debe mostrar el precio original, el monto del descuento y el precio final.

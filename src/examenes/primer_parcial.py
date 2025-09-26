@@ -1,7 +1,7 @@
 """
 Problema: Descomposición por valor posicional
 Enunciado
-Escribe un método que reciba un número entero positivo n > 0 y devuelva una 
+Escribe un método que reciba un número entero positivo n > 0 y devuelva una
 representación de n como suma de sus componentes por valor posicional.
 
 Por ejemplo, 3452 debe representarse como 3000 + 400 + 50 + 2.
@@ -19,18 +19,18 @@ Se penaliza cualquier impresión con texto adicional, p. ej.:
 print("El resultado es", res) o print(f"el resultado es {res}").
 
 La salida debe estar separada por “ + ” entre términos.
-Si el resultado deja un “+” extra al final, está bien (no se penaliza). 
-Por ejemplo si la entrada es 152 y el resultado lo muestras como 150 + 52 + 2 +, 
+Si el resultado deja un “+” extra al final, está bien (no se penaliza).
+Por ejemplo si la entrada es 152 y el resultado lo muestras como 150 + 52 + 2 +,
 no se penalizará.
-No se puede usar conversión del número original a texto para resolver la 
-descomposición ni funciones/métodos de cadenas (por ejemplo: str(n) para 
+No se puede usar conversión del número original a texto para resolver la
+descomposición ni funciones/métodos de cadenas (por ejemplo: str(n) para
 inspeccionar dígitos, split, slicing de strings, indexar strings, etc.).
 
 Únicamente se permite usar ''.join(lista) si  es que sabes como usuarlo.
-Puedes convertir al final los términos ya obtenidos (p. ej., 3000, 600, 9) a 
+Puedes convertir al final los términos ya obtenidos (p. ej., 3000, 600, 9) a
 texto para imprimirlos; lo que no se permite es convertir el número original a texto para analizar sus dígitos.
 
-El método debe devolver el resultado como un string. Es decir, el resultado no 
+El método debe devolver el resultado como un string. Es decir, el resultado no
 se debe imprimir dentro del método que hayas creado.
 
 Formato de entrada

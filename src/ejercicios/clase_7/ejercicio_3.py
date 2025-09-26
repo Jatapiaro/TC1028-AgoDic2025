@@ -1,10 +1,10 @@
 """
-Los divisores propios de un número n son aquellos divisores positivos menores que 
+Los divisores propios de un número n son aquellos divisores positivos menores que
 n.
-Un número entero positivo n se dice que es perfecto si la suma de sus divisores 
+Un número entero positivo n se dice que es perfecto si la suma de sus divisores
 propios es igual a n.
 
-Realiza un programa que lea un número y muestre un mensaje indicando si es 
+Realiza un programa que lea un número y muestre un mensaje indicando si es
 perfecto o no.
 
 Ejemplo:

@@ -4,9 +4,9 @@ Un número Armstrong (o narcisista) es aquel que es igual a la suma de sus dígi
 
 Por ejemplo:
 
-153 = 1^3 + 5^3 + 3^3 → Armstrong 
+153 = 1^3 + 5^3 + 3^3 → Armstrong
 
-9474 = 9^4 + 4^4 + 7^4 + 4^4 → Armstrong 
+9474 = 9^4 + 4^4 + 7^4 + 4^4 → Armstrong
 
 123 = 1^3 + 2^3 + 3^3 → no Armstrong
 

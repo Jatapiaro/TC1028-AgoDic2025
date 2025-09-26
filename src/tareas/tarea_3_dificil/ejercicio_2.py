@@ -1,5 +1,5 @@
 """
-En un array de enteros, cada número aparece dos veces excepto uno. 
+En un array de enteros, cada número aparece dos veces excepto uno.
 Encuentra ese único número.
 
 Entradas:
