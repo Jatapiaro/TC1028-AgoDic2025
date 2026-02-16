@@ -17,3 +17,7 @@ Ejemplo de ejecución:
 
 IMC: 18.7 => Obesidad
 """
+peso = float(input("Peso (kg): "))
+altura = float(input("Estatura (m): "))
+imc = peso / altura**2
+print("Bajo Peso" if imc < 18.5 else "Normal" if imc < 25 else "Sobrepeso" if imc < 30 else "Obesidad")
