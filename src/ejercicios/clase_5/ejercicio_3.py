@@ -39,3 +39,33 @@ Ejemplos de ejecución del programa
 >>>m
 20
 """
+
+def main():
+    n1 = int(input("Valor 1: "))
+    n2 = int(input("Valor 2: "))    
+    clave = input("Clave: ")
+
+    resultado = key1(n1, n2, clave)
+    print(f"El resultado es: {resultado}")
+
+def key1(n1: int, n2: int, clave: str) -> int:
+   
+    if clave == "s":
+        return n1 + n2
+    elif clave == "r":
+        return n1 - n2
+    elif clave == "m":
+        return n1 * n2
+    elif clave == "d":
+        if n2 != 0:
+         return n1 / n2
+        else:
+            return "Error: División entre cero"
+    else:
+        return "Error: Clave inválida"
+
+main()
+    
+    
+
+
