@@ -15,3 +15,18 @@ Ejemplo de ejecución:
 >>> Pyt-h0n 3.9 es genial!
 Pyth
 """
+
+codigo = "Pyt-h0n 3.9 es genial!"
+resultado = ""
+
+for character in codigo:
+    if character == "_" or character == " ":
+        continue
+
+    if character.isdigit():
+        print("¡Error: Se encontró un dígito!")
+        break
+
+    resultado += character
+
+print(resultado)
