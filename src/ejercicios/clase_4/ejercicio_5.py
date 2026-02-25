@@ -8,3 +8,6 @@ Primavera (3, 4 y 5)
 Verano (6, 7, 8)
 Otoño (9, 10, 11)
 """
+ejercicio_5
+
+Alexhia Sophia Pérez Escobar | A01825459
